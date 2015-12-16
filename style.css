@@ -78,7 +78,7 @@ a {
 .introduction-section,
 .location-section,
 .questions-section {
-    max-width: 38em;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
@@ -118,3 +118,26 @@ a {
 /* Responsive styles
     (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 */
+
+@media only screen and (max-width: 1024px) {}
+
+
+/*ipad potrait*/
+
+@media only screen and (max-width: 768px) {
+    .introduction-section,
+    .location-section,
+    .questions-section {
+        width: 85%;
+    }
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (max-width: 480px) {}
+
+
+/*iPhone portrait*/
+
+@media only screen and (max-width: 320px) {}
